@@ -1,0 +1,43 @@
+.advance-view .title-container > span.icon {
+    padding: 3px 10px;
+    background-color: var(--mainColor);
+    color: white;
+    margin: 0px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.advance-view .title-container > span.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+.advance-view .container {
+    line-height: 35px;
+    height: 35px;
+    margin-bottom: 18px;
+}
+.advance-view  .container > div {
+    height: 35px;
+}
+.advance-view > .header {
+    display: flex;
+    margin-bottom: 18px;
+}
+.advance-view .title-container {
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045) 5s;
+}
+.advance-view .children {
+    text-align: left;
+}
+.advance-view .simple-anim {
+    transition-duration: .5s;
+}
+.advance-view .slide-left {
+    opacity: 1;
+}
+.advance-view .slide-right {
+    opacity: 0;
+}
+.advance-view {
+    will-change: opacity, transform;
+    overflow: hidden;
+}

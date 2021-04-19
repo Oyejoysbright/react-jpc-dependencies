@@ -1,0 +1,18 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Sarabun-Medium";
+
+  src: url("./fonts/Sarabun-Medium.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Sarabun-Medium.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sarabun-Bold";
+
+  src: url("./fonts/Sarabun-Bold.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Sarabun-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,76 @@
+/* aliceblue */
+.d-plate {
+    border-left: 10px solid rgb(129, 211, 177);
+    border-radius: 10px;
+    max-width: 200px;
+    max-height: 100px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+}
+
+/* rgb(231, 73, 165); */
+.d-plate:hover {
+    border-left: 10px solid rgb(32, 145, 98);
+}
+.d-plate-label {
+    background: transparent;
+    /* width: 60%; */
+    color: gray;
+}
+.d-plate-label > p > b{
+    background-color: rgb(139, 108, 128);
+    color: aliceblue;
+    border: 1.2px solid whitesmoke;
+    border-radius: 40%;
+    border-right: 0;
+    border-top: 0;
+    /* width: 60%; */
+}
+
+
+.d-plate-icon > svg {
+    width: 39px;
+    height: 39px;
+    color: rgb(129, 211, 177);
+}
+.d-plate-icon > svg:hover {
+    transition: all 0.5s;
+    width: 40.5px;
+    height: 40.5px;
+    /* color: rgb(37, 126, 89); */
+}
+
+
+
+/* warning */
+.d-plate-w {
+    border-left: 10px solid rgb(212, 177, 101);
+    border-radius: 10px;
+    max-width: 200px;
+    max-height: 100px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+}
+.d-plate-w:hover {
+    border-left: 10px solid rgb(189, 167, 45);
+}
+
+.d-plate-icon-w > svg {
+    width: 39px;
+    height: 39px;
+    color: rgb(212, 177, 101);
+}
+.d-plate-icon-w > svg:hover {
+    transition: all 0.5s;
+    width: 40.5px;
+    height: 40.5px;
+    /* color: rgb(37, 126, 89); */
+}

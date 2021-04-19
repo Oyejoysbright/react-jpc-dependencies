@@ -1,0 +1,13 @@
+.back-btn-btn {
+    margin: 5px;
+    /* background-color: transparent; */
+}
+.back-btn-no-effect {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+.back-btn-container {
+    padding: 5px;
+    text-align: right;
+}

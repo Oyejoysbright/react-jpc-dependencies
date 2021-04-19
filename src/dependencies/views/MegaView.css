@@ -1,0 +1,37 @@
+.mega-view .picture {
+    border-radius: 100%;
+    border: #444 solid 1px;
+}
+.mega-view .list-item {
+    padding: 15px;
+}
+.mega-view .border-left {
+    border-left: #444 solid 1px;
+}
+.mega-view table {
+    width: 100%;
+    height: 100%;
+}
+.mega-view .active {
+    color: white;
+    background-color: green;
+}
+.mega-view .table-fit {
+    width: 100%;
+    text-align: center;
+}
+.mega-view .content-right {
+    text-align: right;
+}
+.mega-view .content-left {
+    text-align: left;
+}
+.mega-view .btn-div {
+    margin-top: 50px;
+}
+.mega-view thead {
+    color: #444;
+}
+.mega-view tbody {
+    color: #444;
+}

@@ -1,0 +1,32 @@
+.notice {
+    will-change: opacity, transition;
+    position: relative;
+    /* top: -100px; */
+    max-width: 70%;
+    /* text-align: center; */
+    /* right: 75%; */
+    text-align: left;
+    padding: 5px 0px 0px 0px;
+    margin: 0px 0px 10px 0px;
+    font-weight: bold;
+    font-style: italic;
+}
+.top-top {
+    top: 0;
+    transition-duration: .5s;
+    transition: all .8s;
+    overflow: hidden;
+}
+.static {
+    top: 0;
+}
+.fade-out {
+    opacity: 0;
+    transition: ease-out .8s;
+    overflow: hidden;
+}
+.fade-in {
+    opacity: 1;
+    transition: ease-in .8s;
+    overflow: hidden;
+}

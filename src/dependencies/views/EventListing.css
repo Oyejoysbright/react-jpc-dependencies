@@ -1,0 +1,37 @@
+.event-listing, .new-event {
+    --item-color: red;
+    padding: 2px;
+}
+.event-listing .title {
+    padding: 15px 10px;
+    word-spacing: 2px;
+    background-color: rgb(236, 195, 202);
+    box-shadow: gray;
+}
+.event-listing .item-container {
+    margin: 5px 0px;
+    cursor: pointer;
+}
+.event-listing .content {
+    padding: 15px 10px;
+}
+.event-listing .time {
+    border-left: var(--item-color) 7px solid;
+    padding: 15px 10px;
+    width: 100px;
+    float: left;
+}
+.event-listing .time > span, .event-listing .content > span {
+    display: block;
+}
+.event-listing .content > span:first-child {
+    font-weight: bold;
+}
+.new-event {
+    padding: 15px 10px;
+    background-color: aliceblue;
+}
+.new-event button {
+    color: var(--item-color);
+    background-color: white;
+}

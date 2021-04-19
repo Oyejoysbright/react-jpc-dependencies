@@ -1,0 +1,121 @@
+
+/*  */
+.progress-bar {
+    /* position: relative; */
+    background: transparent;
+    width: 100%;
+    height: 15px;
+    border-radius: 4px;
+    margin: 5px;
+    border: 1px dotted skyblue;
+    
+}
+
+.filler {
+    background: inherit;
+    height: 100%;
+    border-radius: inherit;
+    transition: width 10.2s ease-in;
+}
+.loader-div p{
+    color: rgb(55, 156, 238);
+}
+
+
+
+/* adjust ment */
+.progress{
+    background: transparent;
+    width: 99%;
+    height: 15px;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px double rgb(194, 206, 211);
+    position: relative;
+}
+.progress > div:first-child{
+    position: absolute;
+    top:0px;
+    left:0px;
+    overflow: hidden;
+    /* background: skyblue; */
+    width:0%;
+    height:100%;
+    border-radius: inherit;
+    transition: width .2s ease-in;
+}
+
+.progress > div:last-child{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(185, 185, 185, 0.2); */
+}
+
+.progress > div:last-child > em{
+    font-size: 14px;
+    text-shadow: 0px 1px rgba(78, 66, 66, 0.5);
+    color: white;
+}
+
+/* change background as it load */
+.progress  .style-one {
+    position: absolute;
+    top:0px;
+    left:0px;
+    background: rgb(204, 55, 55);
+    width:0%;
+    height:100%;
+    transition: width .2s ease-in;
+}
+.progress  .style-two {
+    position: absolute;
+    top:0px;
+    left:0px;
+    background: rgb(245, 169, 6);
+    /* width:0%; */
+    height:100%;
+    transition: width .2s ease-in;
+    color: black;
+}
+.progress  .style-three {
+    position: absolute;
+    top:0px;
+    left:0px;
+    background: rgb(164, 219, 12);
+    /* width:0%; */
+    height:100%;
+    transition: width .2s ease-in;
+    color: black;
+}
+.progress  .style-four {
+    position: absolute;
+    top:0px;
+    left:0px;
+    background: rgb(70, 218, 119);
+    /* width:0%; */
+    height:100%;
+    transition: width .2s ease-in;
+}
+.progress  .style-five {
+    position: absolute;
+    top:0px;
+    left:0px;
+    background: green;
+    /* width:0%; */
+    height:100%;
+    transition: width .2s ease-in;
+    color: white;
+}
+.progress-display-none{
+    display: none;
+}
+.progress-display-flex{
+    display: flex;
+}

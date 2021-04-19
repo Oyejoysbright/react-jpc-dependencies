@@ -1,0 +1,92 @@
+
+/* knt - styles */
+.knt-m5{
+    margin: 5px;
+}
+.knt-m-auto{
+    margin: auto;
+}
+
+
+.knt-bg-whitesmoke {
+    background: whitesmoke;
+}
+.knt-bg-gray {
+    background: gray;
+}
+.knt-mh-50p {
+    min-height: 20px;
+}
+.knt-mh-30p {
+    min-height: 30px;
+}
+.knt-icon {
+    width:20px;
+    height:20px;
+    margin:2px;
+    vertical-align: middle;
+}
+.knt-middle {
+    margin: 5px;
+    vertical-align: middle;
+}
+
+
+.knt-p-10p{
+    padding: 10px;
+}
+
+.knt-cursor:hover {
+    cursor: pointer;
+}
+
+.knt-curve{
+    border-bottom: 1.2px solid rgba(214, 178, 229, 0.94);
+    border-right: 1.2px solid rgba(216, 170, 191, 0.94);
+    border-left: 1.2px solid rgba(156, 161, 218, 0.94);
+    border-top: 1.2px solid rgba(221, 180, 186, 0.94);
+    border-radius: inherit;
+}
+
+
+.knt-display-none{
+    display: none !important
+}
+.knt-display-block{
+    display: none !important
+}
+
+.knt-visible{
+    display: block;
+}
+.knt-invisible{
+    display: none;
+}
+
+
+
+.knt-w-inherit {
+    width: inherit;
+}
+
+.knt-display-flex {
+    display: flex;
+}
+.knt-r10 {
+    border-radius: 8px;
+}
+.knt-w-70 {
+    width: 70%;
+}
+.knt-w-100 {
+    width: 100%;
+}
+.knt-t-right {
+    text-align: right;
+}
+.knt-t-left {
+    text-align: left;
+}
+.knt-t-center {
+    text-align: center;
+}

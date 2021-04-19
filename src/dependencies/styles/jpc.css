@@ -1,0 +1,693 @@
+.jpc .right{
+    float: right !important;
+}
+.jpc .left {
+    float: left !important;
+}
+.jpc .content-right {
+    text-align: right !important;
+}
+.jpc .content-left {
+    text-align: left !important;
+}
+.jpc .content-center {
+    text-align: center !important;
+}
+.jpc .content-justify {
+    text-align: justify !important;
+}
+.jpc .content-center-middle {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+}
+.jpc .content-left-middle{
+    vertical-align: middle !important;
+    text-align: left !important;
+}
+.jpc .content-middle {
+    vertical-align: middle !important;
+}
+.jpc .content-bottom {
+    vertical-align: bottom !important;
+}
+.jpc .content-top {
+    vertical-align: top !important;
+}
+
+/* .jpc .icon {
+    width:20px;
+    height:20px;
+    margin:2px;
+    vertical-align: middle;
+} */
+.jpc .success {
+    color: green;
+    font-weight: bold;
+    min-width: 12px;
+    min-height: 12px;
+    margin-right: 5px;
+}
+.jpc .fail {
+    color: red;
+    font-weight: bold;
+    min-width: 12px;
+    min-height: 12px;
+    margin-right: 5px;
+}
+.jpc .isLoading {
+    color: green;
+    font-weight: bold;
+    float: right;
+    margin-right: 5px;
+}
+.jpc .done {
+    color: white;
+    background-color: green;
+}
+.jpc .working {
+    background-color: orangered;
+    color: white;
+}
+.jpc .pending {
+    background-color: rgb(185, 53, 53);
+    color: white;
+}
+
+.jpc .form-block span.notAvailable:before{
+    color:red;
+    content: " Not Available ";
+    font-size: 12px;
+}
+.jpc .form-block span.on:after {
+    color: red;
+    content: " *";
+}
+.jpc .form-block .pwNotMatch:before {
+    color: red;
+    content: " Password not match ";
+    font-size: 12px;
+}
+.jpc .form-block span.userExist:before {
+    color: red;
+    content: " User Exist ";
+    font-size: 12px;
+}
+.jpc .half {
+    width:calc(49% - 1px);
+}
+.jpc .inputfile-container {
+    display: flex;
+    align-items: center;
+}
+.jpc .inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.jpc .inputfile + label {
+    color: black;
+    background-color: whitesmoke;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 0.5px dotted black;
+}
+.jpc .inputfile:focus + label,.jpc .inputfile + label:hover {
+        outline: -webkit-focus-ring-color auto 5px;
+        box-shadow: 0px 1px 2px rgba(0,0,0,0.4);
+        border-radius: 4px;
+}
+.jpc .progress-status {
+    color: yellow;
+}
+.jpc .progress-bar {
+    visibility: hidden;
+    margin: 5px;
+    overflow: hidden;
+}
+.jpc .w-100 {
+    width: 100%;
+}
+.jpc .w-75 {
+    width: 75%;
+}
+.jpc .w-50 {
+    width: 50%;
+}
+.jpc .w-25 {
+    width: 25%;
+}
+@media(max-width: 768px){
+    .jpc .w-100, .jpc .w-75, .jpc .w-50, .jpc .w-25 {
+        width: 100%;
+    }
+}
+.jpc .xsmall {
+    font-size: 10px;
+}
+.jpc .small {
+    font-size: small;
+}
+.jpc .ml-1 {
+    margin-left: 1px;
+}
+.jpc .opt-btn {
+    margin-right: .8em;
+    float: right;
+    display: flex;
+} 
+.jpc .main-btn {
+    margin: 3px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.jpc .btn-height {
+    height: 38px;
+    position: relative;
+    padding: 6px;
+    margin-top: 10px;
+}
+.jpc .strong-md {
+    font-weight: bold;
+    font-size: medium;
+    margin-bottom: 20px;
+    display: block;
+}
+.jpc .strong-md::before {
+    content: "\A";
+}
+/* .jpc ::-webkit-scrollbar {
+    width: 20px;
+}
+.jpc ::-webkit-scrollbar-button {
+    border-radius: 10px;
+    background-color: blue;
+    color: blue;
+}
+.jpc ::-webkit-scrollbar-thumb {
+    background: red;
+}
+.jpc ::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+} */
+.jpc .card-icon {
+    max-width: 50px;
+    background-color: inherit;
+    border: 1px solid gray;
+    color: green;
+    margin: 5px;
+    padding: 5px;
+    vertical-align: top;    
+}
+.jpc .card-icon:hover {
+    cursor: pointer;
+    color: yellowgreen;
+}
+.jpc .border {
+    border: 1px solid black;
+}
+.jpc .border-top {
+    border-top: 1px solid black;
+}
+.jpc .border-bottom {
+    border-bottom: 1px solid whitesmoke;
+}
+.jpc .border-left {
+    border-left: 1px solid black;
+}
+.jpc .border-right {
+    border-right: 1px solid black;
+}
+.jpc .cover-bg {
+    background-color: transparent;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    z-index: 3;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    transition: all .8s;
+    overflow: hidden;
+}
+.jpc .show {
+    opacity: 1 !important;
+}
+.jpc .hide {
+    opacity: 0 !important;
+    pointer-events: none;
+    height: 0px;
+}
+.jpc .slide-down {
+    transform: translateY(100px);
+    height: 0;
+}
+.jpc .slide-up {
+    transform: translateY(0);
+    height: 100%;
+}
+.jpc .slide-left {
+    transform: translateX(0);
+}
+.jpc .slide-right {
+    transform: translateX(100px);
+}
+.jpc .simple-anim {
+    transition: all .8s;
+    overflow: hidden;
+}
+.jpc .inline {
+    display: inline !important;
+}
+.jpc .inline-block {
+    display: inline-block !important;
+}
+.jpc .no-top-margin {
+    margin-top: 0.1px !important;
+}
+.jpc .no-bottom-margin {
+    margin-bottom: 0.1px !important;
+}
+.jpc .no-left-margin {
+    margin-left: 0.1px !important;
+}
+.jpc .no-right-margin {
+    margin-right: 0.1px !important;
+}
+.jpc .zero-left-margin {
+    margin-left: 0px !important;
+}
+.jpc .zero-right-margin {
+    margin-right: 0px !important;
+}
+.jpc .zero-top-margin {
+    margin-top: 0px !important;
+}
+.jpc .zero-bottom-margin {
+    margin-bottom: 0px !important;
+}
+.jpc .rm-20 {
+    margin-right: 20px !important;
+}
+.jpc .bm-20 {
+    margin-bottom: 20px !important;
+}
+.jpc .margin-5 {
+    margin: 5px !important;
+}
+.jpc .margin-10 {
+    margin: 10px !important;
+}
+.jpc .no-border {
+    border: none !important;
+}
+.jpc .capital-letter {
+    text-transform: uppercase !important;
+}
+.jpc .green-border {
+    border-color: green !important;
+}
+.jpc .h-100 {
+    height: 100% !important;
+}
+.jpc .btn-like {
+    cursor: pointer;
+    color: #66e;
+}
+.jpc .right-btn-like {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.jpc .left-btn-like {
+    margin-left: 10px;
+    cursor: pointer;
+    color: blueviolet;
+    font-size: 15px;
+}
+.jpc .btn-optional {
+    margin-left: 10px;
+}
+.jpc .label-field-format > div {
+    flex: 3;
+    position: relative;
+    margin: 0px;
+    border-radius: 4px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 100%;
+    height: 44px;
+}
+.jpc .label-field-format {
+    display: flex;
+}
+.jpc .minor-transition {
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045) 1s;
+}
+.jpc .minor-transition > div, .jpc .minor-transition > form {
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045) 1s;
+}
+.jpc .scroll {
+    overflow: auto;
+}
+
+
+
+
+.jpc-flex {
+    display: flex;
+}
+.jpc-btn-optional {
+    margin-left: 20px;
+}
+.jpc-error {
+    color: red !important;
+}
+.jpc-bg-error {
+    background-color: red !important;
+    color: white;
+}
+.jpc-waiting {
+    color: gold !important;
+}
+.jpc-bg-waiting {
+    background-color: gold !important;
+    color: white;
+}
+.jpc-success {
+    color: green !important;
+}
+.jpc-bg-success {
+    background-color: green !important;
+    color: white;
+}
+.jpc-inline {
+    display: inline;
+}
+.jpc-inline-block {
+    display: inline-block;
+}
+.jpc-block {
+    display: block;
+}
+.jpc-float-bottom-right {
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+.jpc-tickable-card {
+    display: flex;
+    margin: 5px 0px;
+}
+.jpc-tickable-card > div {
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+    padding: 5px;
+    margin: 5px;
+    background-color: inherit;
+    border-radius: 5px;
+    position: relative;
+    min-height: 50px;
+}
+.jpc-tickable-card > input {
+    border: none;
+}
+input[class=jpc-instant-title] {
+    position: relative;
+    cursor: help;
+}
+input[class=jpc-instant-title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    left: 0;
+    top: 24px;
+    min-width: 200px;
+    border: 1px #aaaaaa solid;
+    border-radius: 10px;
+    background-color: #ffffcc;
+    padding: 12px;
+    font-size: 14px;
+    z-index: 1;
+}
+.jpc .label-field-format > div {
+    flex: 3;
+    position: relative;
+    margin: 0px;
+    border-radius: 4px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 100%;
+    height: 44px;
+}
+
+/** 2ND GENERATION **/
+.jpc-disabled {
+    pointer-events: none;
+    opacity: .6;
+}
+input[readonly], select[readonly], textarea[readonly] {
+    cursor: not-allowed;
+}
+.jpc-rotate-0deg {
+    transform: rotate(0deg);
+}
+.jpc-rotate-15deg {
+    transform: rotate(15deg);
+}
+.jpc-rotate-30deg {
+    transform: rotate(30deg);
+}
+.jpc-rotate-45deg {
+    transform: rotate(45deg);
+}
+.jpc-rotate-60deg {
+    transform: rotate(60deg);
+}
+.jpc-rotate-75deg {
+    transform: rotate(75deg);
+}
+.jpc-rotate-90deg {
+    transform: rotate(90deg);
+}
+.jpc-rotate-105deg {
+    transform: rotate(105deg);
+}
+.jpc-rotate-120deg {
+    transform: rotate(120deg);
+}
+.jpc-rotate-135deg {
+    transform: rotate(135deg);
+}
+.jpc-rotate-150deg {
+    transform: rotate(150deg);
+}
+.jpc-rotate-165deg {
+    transform: rotate(165deg);
+}
+.jpc-rotate-180deg {
+    transform: rotate(180deg);
+}
+.jpc-rotate-m15deg {
+    transform: rotate(-15deg);
+}
+.jpc-rotate-m30deg {
+    transform: rotate(-30deg);
+}
+.jpc-rotate-m45deg {
+    transform: rotate(-45deg);
+}
+.jpc-rotate-m60deg {
+    transform: rotate(-60deg);
+}
+.jpc-rotate-m75deg {
+    transform: rotate(-75deg);
+}
+.jpc-rotate-m90deg {
+    transform: rotate(-90deg);
+}
+.jpc-rotate-m105deg {
+    transform: rotate(-105deg);
+}
+.jpc-rotate-m120deg {
+    transform: rotate(-120deg);
+}
+.jpc-rotate-m135deg {
+    transform: rotate(-135deg);
+}
+.jpc-rotate-m150deg {
+    transform: rotate(-150deg);
+}
+.jpc-rotate-m165deg {
+    transform: rotate(-165deg);
+}
+.jpc-rotate-m180deg {
+    transform: rotate(-180deg);
+}
+.jpc-row-flex {
+    display: flex;
+}
+.jpc-pointer-cursor {
+    cursor: pointer;
+}
+
+/* Object List */
+.object-list table {
+    width: 100%;
+    height: 100%;
+}
+.object-list .active {
+    background-color: #08075C;
+    color: white;
+}
+.object-list .table-fit {
+    width: 100%;
+}
+.object-list .table-fit .scroll {
+    overflow: auto;
+}
+.object-list .content-right {
+    text-align: right;
+}
+.object-list .content-left {
+    text-align: left;
+}
+.object-list .content-center {
+    text-align: center;
+}
+.object-list .btn-div {
+    margin-top: 50px;
+}
+.object-list thead {
+    color: #444;
+}
+.object-list thead th {
+    padding: 10px 5px !important;
+    text-transform: uppercase !important;
+    min-width: 120px;
+}
+.object-list tbody {
+    color: #444;
+}
+.object-list .picture {
+    border-radius: 100%;
+    border: #444 solid 1px;
+}
+.object-list .table-fit table {
+    overflow-x: hidden !important;
+}
+.object-list button {
+    color: #08075C;
+}
+.object-list .display-select {
+    height:40px;
+    border:solid 1px #bbbbbb;
+    box-sizing: border-box;
+    margin: 0px 5px;
+}
+.object-list .zero-placeholder {
+    height: 25vh;
+    color: #dfdfdf;
+    font-style: oblique;
+}
+.object-list .icon {
+    vertical-align: middle;
+}
+.object-list .row-selected {
+    background-color: aquamarine;
+    transition: ease-in-out .5s;
+}
+.object-list .update-btn {
+    cursor: pointer;
+    padding: 10px 18px;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+    border: solid 1px transparent;
+    border-radius: 2px;
+    font-size: medium !important;
+}
+.object-list .highlight {
+    color: yellow;
+}
+.object-list .edit-active {
+    border: 1px solid rgb(201, 83, 83);
+}
+
+/*TABLE*/
+
+.jpc-unset-table tr:nth-child(2n+1){
+    background-color: #fcfcfc;
+}
+.jpc-unset-table th{
+    background-color: #d0d0d0;
+}
+.jpc-unset-table td{
+    padding: 1px 7px;
+}
+
+/* Array Select Component */
+
+.jpc.array-select ul {
+    list-style-type: none;
+}
+.jpc.array-select li:first-child {
+    margin-bottom: 10px;
+}
+.jpc.array-select li {
+    margin: 10px 10px 10px 0px;
+}
+.jpc.array-select input[type="text"] {
+    width: 100%;
+}
+.jpc.array-select .options {
+    max-height: 200px;
+    min-width: 200px;
+    overflow: auto;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+    border-radius: 2px;
+}
+.jpc.array-select .focus {
+    opacity: 1;
+    pointer-events: unset;
+}
+.jpc.array-select .unfocused {
+    opacity: 0;
+    pointer-events: none;
+}
+.jpc.array-select input[type = "checkbox"] {
+    margin-right: 10px;
+}
+
+.jpc.layout .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.jpc.layout header:first-child {
+    max-width: 200px;
+}
+.jpc.nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.jpc.nav > ul > li {
+    padding: 2px 5px;
+    display: inline;
+}
+.jpc.nav > ul > li:hover {
+    background-color: var(--nav-link-bg-color);
+    color: var(--nav-link-color);
+}

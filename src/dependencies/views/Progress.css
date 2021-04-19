@@ -1,0 +1,53 @@
+.progress-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+.progress-container > div {
+    flex: 1;
+    background-color:rgba(160, 159, 159, 0.2);
+    height: 40px;
+    padding: 2px 0px;
+    line-height: 40px;
+    margin: 0px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-indent: 10px;
+    font-weight: bold;
+    text-align-last: center;
+}
+.progress-container.title {
+    float: left;
+    color: #444;
+}
+.progress-container .normal {
+    background-color: rgba(160, 159, 159, 0.2);
+    color: #444;
+}
+.progress-container .bad {
+    background-color: red;
+    color: white;
+}
+.progress-container .average {
+    background-color: yellow;
+    color: #444;
+}
+.progress-container .good {
+    background-color: yellowgreen;
+    color: white;
+}
+.progress-container .very-good {
+    background-color: green;
+    color: white;
+}
+.progress-container .loader {
+    width: 50%;
+    height: 100%;
+    transition: ease-out .1s;
+}
+.progress-container .content {
+    background-color: transparent;
+    right: 0;
+    left: 0;
+}

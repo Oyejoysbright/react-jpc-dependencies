@@ -1,0 +1,17 @@
+/* button::hover {
+    border: blue;
+    border-radius: 12px;
+} */
+
+.print-btn{
+    text-transform: uppercase;
+    margin: 5px;
+    color: #090860;
+    background: #fff;
+    border-radius: 10px;
+}
+.print-btn:hover{
+    color: #fff;
+    background: #090860;
+    border-radius: 10%;
+}
