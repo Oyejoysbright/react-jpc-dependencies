@@ -750,3 +750,8 @@ input[readonly], select[readonly], textarea[readonly] {
     margin: 5px 0px;
     padding: 2px 5px;
 }
+.jpc.name-box {
+    border-radius: 20px;
+    background-color: var(--name-box-bg-color);
+    color: var(--name-box-text-color);
+}
