@@ -1670,3 +1670,12 @@ export const JDate = {
  * 
  * The End
  */
+
+/**
+ * JPC VERSION 3.0.0
+ * 
+ * Beginning
+ */
+export const JPC = {
+
+}

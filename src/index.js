@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import './dependencies/styles/fonts.css';
 import './dependencies/styles/hanspet.css';
 import './dependencies/styles/jpc.css';
 // import "react-datepicker/dist/react-datepicker.css";
