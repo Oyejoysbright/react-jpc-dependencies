@@ -755,3 +755,16 @@ input[readonly], select[readonly], textarea[readonly] {
     background-color: var(--name-box-bg-color);
     color: var(--name-box-text-color);
 }
+.quote {
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+
+.jpc.stack, .jpx-stack, .jpc .stack {
+    display: flex;
+    justify-content: space-evenly;
+}
+.stack h1, .stack h2, .stack h3, .stack h4, .stack h5, .stack h6 {
+    display: inline-block;
+    font-family: 'ubuntu-bold';
+}
