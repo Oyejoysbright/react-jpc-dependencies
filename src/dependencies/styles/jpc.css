@@ -768,3 +768,55 @@ input[readonly], select[readonly], textarea[readonly] {
     display: inline-block;
     font-family: 'ubuntu-bold';
 }
+.jpc.carousel {
+    position: relative;
+    min-height: 200px;
+    text-align: center;
+}
+.jpc.carousel .next, .jpc.carousel .prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.jpc.carousel .next {
+    right: 0;
+}
+.jpc.carousel .prev {
+    left: 0;
+}
+.jpc.carousel .next:hover, .jpc.carousel .prev:hover {
+    background-color: black;
+    color: white;
+}
+.jpc.detail-card {
+    box-shadow: 0px 15px 50px -15px rgba(50, 54, 47, 0.2);
+    min-height: 350px;
+    margin: 35px 25px;
+    text-align: center;
+    width: 250px;
+    display: block;
+    float: left;
+    border-radius: 10px;
+}
+.jpc.detail-card .image {
+    height: 100px;
+}
+.jpc.detail-card .title {
+    margin: 30px 0px;
+    font-weight: 600;
+    padding: 5px;
+}
+.jpc.detail-card .content {
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding: 10px;
+}
